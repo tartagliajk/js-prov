@@ -1,0 +1,35 @@
+.button-container {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+margin: auto;
+align-items: center;
+height: 40vh;
+width: 40vw;
+background-color: beige;
+}
+
+button {
+padding: 10px;
+margin: 10px;
+font-size: 12px;
+width: 80px;
+height: 50px;
+}
+
+.hover-effect {
+background-color: #3498db;
+color: white;
+border: none;
+border-radius: 5px;
+/* padding: 10px 20px; */
+font-size: 14px;
+transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.hover-effect:hover 
+{
+background-color: #6e3a63;
+color: #fff;
+}
